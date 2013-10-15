@@ -1,0 +1,38 @@
+1. Kupno w kasie
+
+Kupujący przychodzi przed wydarzeniem do kasy, nawiązuje rozmowę ze Sprzedającym.
+Celem interakcji jest kupno biletu na wydarzenie w formie fizycznej (bilet wydrukowany na papierze).
+
+K przychodzi do kasy, prosi o bilet. S pyta się o rodzaj biletu, następnie o sektor i preferowane miejsce. S wprowadza dane do systemu, na cele monitorowania ilości sprzedanych biletów. Następnie S pyta się o sposób zapłaty: gotówką lub kartą. K wyciąga odpowiednie medium przekazu pieniędzy, następnie płaci. W przypadku braku odpowiedniej ilości gotówki, S uprzejmie odmawia dokonania transakcji w sposób, by nie brzmiało to jak faktyczna odmowa, następnie usuwa wpisane dane. Gdy trasakcja udaje się (K ma odpowiednią ilość pieniędzy), S drukuje bilet i wydaje go K wraz z dowodem zakupu.
+
+Wymagania: otwarta kasa, bilety są dostępne, K ma odpowiednią ilość pieniędzy.
+Rezultaty: K otrzymuje bilet.
+
+2. Kupno przez internet
+
+Kupujący siada przed komputerem/włącza tablet/smartphone/cokolwiek z dostępem do internetu i możliwością obsługi Strony internetowej służącej do zamawiania.
+Celem interakcji jest kupno biletu na wydarzenie nie ruszając się z domu.
+
+K uruchamia Stronę sprzedarzy. Wybiera wydarzenie, następnie przechodzi przez proces zamawiania biletu. K otrzymuje diagram ukazujący status zajęcia miejsc na stadionie, ma możliwość wyboru miejsca dla siebie. Zaznacza wybrane miejsca, wybiera rodzaj biletów, S wyświetla cenę. Gdy K zdecyduje się na kupno, przechodzi na następną stronę, gdzie wybiera sposób płatności (kartą, przez PayPal) i sposób odbioru biletu (dostawa do domu, odbiór w kasie). W przypadku wybrania dostawy do domu, K podaje również adres. K otrzymuje na podany wcześniej email potwierdzenie złożenia zamówienia, po czym, gdy System otrzyma przelew, otrzymuje równierz email z potwierdzeniem wysyłki/rezerwacji zamówionych biletów. 
+
+Wymagania: dostęp do internetu, wystarczająca ilość pieniędzy ze strony K, działanie Systemu
+Rezultaty: K rezerwuje bilet dostępny do odbioru/wysłany do domu
+
+3. Zwrot biletu przed rozpoczęciem wydarzenia
+
+Kupujący z powodów osobistych nie może wziąć udziału w wydarzeniu po wcześniejszym zakupie biletu, idzie więc do kasy celem odzyskania pieniędzy.
+
+K przychodzi do kasy, prosi Sprzedawcę o zwrot pieniędzy wzamian za bilet. S prosi o okazanie biletu i dowodu zakupu. W przypadku braku lub znacznego uszkodzenia któregokolwiek z elementów, S uprzejmie odmawia dokonania transakcji. Jeśli wszystko się zgadza, S wpisuje numer transakcji dostępny na dowodzie zakupu do systemu, odbiera bilet i dowód zakupu od S, po czym wydaje podaną przez system ilość gotówki.
+
+Wymagania: K posiada nieuszkodzony bilet i dowód zakupu, przychodzi do kasy max. 7 dni przed wydarzeniem.
+Rezultat: K oddaje bilet i otrzymuje swoje pieniądze z powrotem
+
+4. Rodzina z małymi dziećmi
+
+Kupujący przychodzi z czwórką dzieci, część z nich jest młodsza niż 4 lata
+Celem interakcji jest kupno biletów na wydarzenie w rodzaju grupowy i dla dzieci
+
+K przychodzi do kasy, prosi o 5 biletów, jeden normalny, 4 dla dzieci. S prosi o dowód tożsamości opiekuna i pyta się o wiek dzieci. Następnie K wybiera miejsca z dostępnych, S wprowadza dane do systemu zaznaczając zakup 5 biletów naraz upoważniający do zniżki 15% na każdym oraz biletów dla dzieci poniżej 4 roku życia, będących biletami darmowymi. W przypadku, gdy K jest niepełnoletni, S uprzejmie odmawia sprzedarzy, uzasadniając ją potrzebą obecności osoby pełnoletniej przy zakupie biletów dla dzieci. Następnie K płaci, po czym S wydaje odpowiednie bilety.
+
+Wymagania: K jest pełnoletni, posiada odpowiednią ilość pieniędzy
+Rezultat: K otrzymuje odpowiednie bilety, z odpowiednimi zniżkami
