@@ -1,0 +1,35 @@
+Funkcjonalności:
+
+- sprzedaż w kasach (na kartoniku)
+	-przez kasjera z odpowiednimi uprawnieniami
+	-możliwość oddania biletu przed zużyciem
+	-bilety grupowe
+	
+
+- sprzedaż online
+	-rezerwacja z biletem (jak w kinie) (możliwość dostawy(max 7 dni przed), odbiór w kasie)
+	-również zwrot
+	-kupno bez konta/z kontem
+
+
+BILETY:::
+- ceny zależne od sektoru (lepszy droższy, tańszy gorszy)
+- <4yo za darmo
+- grupowy (>5 15% zniżki na każdy)
+- BWO
+
+gromadzone dane:
+- osobowe (online only)
+- adres (przy dostawie)
+- email
+- statystyczne (o ilości sprzedanych biletów)
+
+bilet:
+-rodzaj
+-cena
+-sektor
+-miejsce
+-nazwa wydarzenia
+-reklamy, wszędzie reklamy
+-info odnośnie wydarzenia (nazwa się tu zalicza)
+-info o zwrocie
